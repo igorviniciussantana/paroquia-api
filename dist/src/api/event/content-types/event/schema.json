@@ -4,7 +4,8 @@
     "info": {
         "singularName": "event",
         "pluralName": "events",
-        "displayName": "event"
+        "displayName": "event",
+        "description": ""
     },
     "options": {
         "draftAndPublish": true
@@ -16,10 +17,7 @@
             "required": true
         },
         "Data": {
-            "type": "date"
-        },
-        "Time": {
-            "type": "time"
+            "type": "datetime"
         }
     }
 }
